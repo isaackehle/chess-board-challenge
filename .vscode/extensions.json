@@ -1,0 +1,21 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation on the `extensions.json` format.
+    "recommendations": [
+        // Formatting and linting
+        "editorconfig.editorconfig",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "wayou.vscode-todo-highlight",
+        // Git
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "ziyasal.vscode-open-in-github",
+        "codezombiech.gitignore",
+        // Testing
+        "ms-playwright.playwright",
+        "orta.vscode-jest",
+        "firsttris.vscode-jest-runner"
+    ]
+}

@@ -1,0 +1,6 @@
+build
+.vscode
+e2e/docs
+e2e/test-results
+coverage/
+app/widgets/ReturnSummaryApertureWidget/dist/

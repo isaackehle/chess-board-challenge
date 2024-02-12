@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "workbench.editor.closeOnFileDelete": true,
+  "editor.tabSize": 4,
+  "bashBeautify.tabSize": 4
+}

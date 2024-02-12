@@ -1,1 +1,1 @@
-export type Piece = Record<string, string[]>;
+export type Piece<T extends string> = Record<T, T[] | false>;

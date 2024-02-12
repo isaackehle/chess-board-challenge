@@ -14,7 +14,11 @@ describe('phone layout', () => {
         expect(iterate({ piece: knight, position: '0', maxLen: 3 })).toBe(6);
     });
 
-    test('knight at space 0, 2 digits', () => {
+    test('knight at space 0', () => {
         expect(iterate({ piece: knight, position: '0', maxLen: VALID_PHONE_LENGTH })).toBe(1760);
+    });
+
+    test('knight at space #', () => {
+        expect(iterate({ piece: knight, position: '#', maxLen: VALID_PHONE_LENGTH })).toBe(0);
     });
 });
